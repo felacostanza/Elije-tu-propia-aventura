@@ -1,0 +1,224 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100vh;
+    width: 100vw;
+    /*background: linear-gradient(lightblue, rgb(76, 76, 247));*/
+    background: linear-gradient(#55828b, #c9e4ca);
+    background-repeat: no-repeat;
+}
+
+header{
+    text-align: center;
+    background-color: #2f3e46;
+    padding: 20px;
+    margin: 10px;
+    margin-bottom: 0;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    color: white;
+}
+
+header h2{
+    margin-top: 20px;
+}
+
+#invisible{
+    visibility: hidden;
+}
+
+.topnav{
+    background-color: rgb(41, 126, 83);
+    overflow: hidden;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+.topnav li{
+    float: left;
+    display: inline;
+    color: white;
+    font-size: larger;
+    padding: 12px 16px;
+    transition: background-color .5s;
+}
+
+.topnav li a{
+    color: white;
+    text-decoration: none;
+}
+
+.topnav li:hover{
+    background-color: black;
+}
+
+.navselect{
+    background-color: black;
+}
+
+
+.card ul{
+    list-style: inside;
+    font-size: 150%;
+}
+
+section{
+    margin-top: 20px;
+}
+
+.opcion{
+    text-align: center;
+    margin: 10px;
+}
+
+.card{
+    box-shadow: 10px 10px 5px gray;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 50px;
+    background-color: #52796f;
+    border-radius: 25px;
+    margin-left: 300px;
+    margin-right: 300px;
+    overflow: hidden;
+}
+
+.card p{
+    font-size: 150%;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.cardImage{
+    background-color: #84a98c;
+    overflow: hidden;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 15px;
+    box-shadow: 10px 10px 5px gray;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    transition: transform .5s;
+}
+
+.cardImage:hover{
+    transform: scale(1.05);
+}
+
+.cardImage img{
+    height: 300px;
+    width: 450px;
+}
+
+.card h2{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.badEnding{
+    text-transform: uppercase;
+    color: red;
+    text-align: center;
+}
+
+.badEndingCard{
+    padding: 50px;
+    background: linear-gradient(to bottom right, black, red);
+    border-radius: 25px;
+    margin-left: 300px;
+    margin-right: 300px;
+    color: white;
+    box-shadow: 10px 10px 5px gray;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    overflow: hidden;
+}
+
+.badEndingCard p{
+    margin-top: 25px;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: 150%;
+}
+
+.badEndingCard img{
+    margin-top: 50px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.goodEnding{
+    text-transform: uppercase;
+    color: green;
+    text-align: center;
+}
+
+.goodEndingCard{
+    padding: 50px;
+    background: linear-gradient(to bottom right, black, green);
+    border-radius: 25px;
+    margin-left: 300px;
+    margin-right: 300px;
+    color: white;
+    box-shadow: 10px 10px 5px gray;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    overflow: hidden;
+}
+
+.goodEndingCard p{
+    margin-top: 25px;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: 150%;
+}
+
+.goodEndingCard img{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.rareEnding{
+    text-transform: uppercase;
+    color: rgb(197, 172, 28);
+    text-align: center;
+}
+
+.rareEndingCard{
+    padding: 50px;
+    background: linear-gradient(to bottom right, #55828b, #3b6064);
+    border-radius: 25px;
+    margin-left: 300px;
+    margin-right: 300px;
+    color: white;
+    box-shadow: 10px 10px 5px gray;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    overflow: hidden;
+}
+
+.rareEndingCard p{
+    margin-top: 25px;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: 150%;
+}
+
+.rareEndingCard img{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    margin-top: 50px;
+    border-radius: 100px;
+}
+
